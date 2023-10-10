@@ -1,0 +1,1113 @@
+CRITICAL - 2023-10-02 02:50:37 --> Class "App\Models\Data" not found
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 02:51:21 --> syntax error, unexpected single-quoted string "akt", expecting "]"
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('Home/viewMapAktual', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Home/viewMapAktual')
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('Home/viewMapAktual')
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 02:53:11 --> Class "CodeIgniter\Database\postre\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('postre', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(81): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(10): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 02:57:35 --> Class "CodeIgniter\Database\postre\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('postre', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(81): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(10): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 03:02:30 --> Class "CodeIgniter\Database\postre\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('postre', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(81): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(10): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 03:02:31 --> Class "CodeIgniter\Database\postre\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('postre', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(81): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(10): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:03:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:03:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:03:42 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:03:42 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:03:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:03:47 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:03:47 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:04:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:04:28 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:04:28 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:04:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:04:28 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:04:28 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:05:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:05:59 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:05:59 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:06:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:06:00 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:06:00 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:06:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:06:01 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:06:01 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:06:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:06:01 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:06:01 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:12:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:12:49 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:12:49 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:12:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:12:49 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:12:49 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:12:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:12:49 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:12:49 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:12:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:12:50 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:12:50 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:12:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:12:55 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:12:55 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:13:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:13:08 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:13:08 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 03:29:54 --> Class "CodeIgniter\Database\postgreksksk\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('postgreksksk', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(81): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(10): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:38:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:38:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:38:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:39:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 03:39:44 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(16): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 03:39:44 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(16): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 03:39:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 05:15:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 05:15:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 05:15:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 10:56:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 10:56:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 10:56:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:03:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:04:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:04:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:05:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 11:05:21 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\Postgre\Connection.php:72
+Stack trace:
+#0 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#1 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\app\Controllers\Home.php(17): App\Models\DataModel->AllData()
+#5 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(932): App\Controllers\Home->index()
+#6 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\RIZAL\DASHBOARD\XAMPP\htdocs\webgis-frasta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-02 11:05:21 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AKTUAL"', [], false)
+ 3 APPPATH\Models\DataModel.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(17): App\Models\DataModel->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:08:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:11:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:12:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:12:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:13:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:14:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:15:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:16:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:16:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:16:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:16:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:16:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:17:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:17:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:18:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:19:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:20:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:22:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:23:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:28:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 11:29:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:06:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:06:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:13:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:13:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:13:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:14:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:15:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:16:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:17:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:43:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:44:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:44:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:44:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:45:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:47:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:48:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:49:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:54:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:55:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:55:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:55:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:55:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:55:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:56:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:57:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:57:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:57:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:57:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:57:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:57:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:57:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:58:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:58:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 13:59:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:01:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:02:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:03:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:05:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:06:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:06:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:06:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:07:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:08:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:09:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:09:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:09:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:10:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:11:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:12:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:14:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:14:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:14:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:15:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:15:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:15:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:16:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:17:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:17:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:17:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:18:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:18:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:18:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:19:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:19:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:20:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:25:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:27:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:27:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:27:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:27:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:27:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:29:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:29:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:30:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:30:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:30:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:30:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:30:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:32:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:33:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:33:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-10-02 14:35:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$DataModel is deprecated in APPPATH\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
