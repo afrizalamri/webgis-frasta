@@ -17,7 +17,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'http://localhost/webgis-frasta/public/';
+    public string $baseURL = 'https://vercel.com/afrizalamri/webgis-frasta/public/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
